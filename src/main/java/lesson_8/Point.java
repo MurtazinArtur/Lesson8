@@ -1,3 +1,5 @@
+package lesson_8;
+
 public class Point {
     int x, y, useCount;
     Point(int x, int y) { this.x = x; this.y = y; }
