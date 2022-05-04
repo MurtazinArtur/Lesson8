@@ -2,7 +2,7 @@ package lesson_12.task_1;
 
 import java.util.Comparator;
 
-public class Cat extends Animal implements Comparable<Cat>{
+public class Cat extends Animal implements Comparable<Cat>, Comparator<Cat>{
     private String name;
     private Integer weight;
 
@@ -50,6 +50,17 @@ public class Cat extends Animal implements Comparable<Cat>{
 
     @Override
     public int compareTo(Cat o) {
-        return this.weight.compareTo(o.weight);
+        int result = weight.compareTo(o.weight);
+        if (result == 0){
+           result = compare(this, o);
+        }
+        return result;
+    }
+
+    @Override
+    public int compare(Cat o1, Cat o2) {
+        String str1 = o1.getName();
+        String str2 = o2.getName();
+        return str1.compareTo(str2);
     }
 }
