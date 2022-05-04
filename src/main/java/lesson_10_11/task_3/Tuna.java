@@ -1,4 +1,4 @@
-package lesson_10_11.Task_3;
+package lesson_10_11.task_3;
 
 interface Fish  { int getNumberOfScales(); }
 interface Piano { int getNumberOfScales(); }

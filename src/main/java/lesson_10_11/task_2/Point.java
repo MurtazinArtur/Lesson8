@@ -1,4 +1,4 @@
-package lesson_10_11.Task_2;
+package lesson_10_11.task_2;
 
 interface Colorable {
     void setColor(int color);

@@ -1,4 +1,4 @@
-package lesson_10_11.Task_5;
+package lesson_10_11.task_5;
 
 public class Test {
     public static void main(String[] args) {
