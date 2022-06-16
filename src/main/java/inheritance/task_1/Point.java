@@ -1,4 +1,4 @@
-package lesson_8;
+package inheritance.task_1;
 
 public class Point {
     int x, y, useCount;
