@@ -1,23 +1,24 @@
 package uitests.perfomancelab_page;
 
 import com.codeborne.selenide.junit5.ScreenShooterExtension;
+import io.qameta.allure.Attachment;
 import org.junit.jupiter.api.*;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.api.extension.RegisterExtension;
 import ui.page.GoogleResultsPage;
 import ui.page.GoogleSearchPage;
 import ui.page.PerformanceLabPage;
 import ui.page.TestingSitesPage;
 
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.closeWebDriver;
+import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@ExtendWith({ScreenShooterExtension.class})
 class PerformanceLabPageTest {
-    PerformanceLabPage perfPage;
     @RegisterExtension
     static ScreenShooterExtension screenshotEmAll = new ScreenShooterExtension(true).to("target/screenshots");
+
+    PerformanceLabPage perfPage;
 
     @BeforeEach
     void searchPerformanceLabPage() {
