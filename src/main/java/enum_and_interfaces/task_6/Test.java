@@ -1,4 +1,4 @@
-package lesson_10_11.task_6;
+package enum_and_interfaces.task_6;
 
 import java.util.Arrays;
 

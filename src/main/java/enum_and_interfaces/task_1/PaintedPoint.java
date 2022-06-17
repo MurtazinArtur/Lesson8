@@ -1,4 +1,4 @@
-package lesson_10_11.task_1;
+package enum_and_interfaces.task_1;
 
 import java.util.ArrayList;
 import java.util.List;

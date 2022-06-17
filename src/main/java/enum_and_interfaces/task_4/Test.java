@@ -1,4 +1,4 @@
-package lesson_10_11.task_4;
+package enum_and_interfaces.task_4;
 
 class Super {
     static int taxi = 1729;

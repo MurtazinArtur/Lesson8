@@ -1,4 +1,4 @@
-package lesson_10_11.task_5;
+package enum_and_interfaces.task_5;
 
 public class Test {
     public static void main(String[] args) {
