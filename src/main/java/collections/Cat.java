@@ -1,4 +1,4 @@
-package lesson_12;
+package collections;
 
 import java.util.function.Supplier;
 

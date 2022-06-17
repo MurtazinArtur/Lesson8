@@ -1,6 +1,6 @@
-package lesson_12.task_4;
+package collections.task_4;
 
-import lesson_12.task_1.Cat;
+import collections.task_1.Cat;
 
 import java.util.HashMap;
 import java.util.Map;

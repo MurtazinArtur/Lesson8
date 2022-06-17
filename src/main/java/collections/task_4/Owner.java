@@ -1,4 +1,4 @@
-package lesson_12.task_4;
+package collections.task_4;
 
 public class Owner {
     private String name;

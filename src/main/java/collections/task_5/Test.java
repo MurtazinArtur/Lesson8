@@ -1,7 +1,7 @@
-package lesson_12.task_5;
+package collections.task_5;
 
-import lesson_12.task_1.Cat;
-import lesson_12.task_4.Owner;
+import collections.task_1.Cat;
+import collections.task_4.Owner;
 
 import java.util.ArrayList;
 import java.util.HashMap;

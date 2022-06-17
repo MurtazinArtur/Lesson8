@@ -1,6 +1,6 @@
-package lesson_12.task_3;
+package collections.task_3;
 
-import lesson_12.task_1.Cat;
+import collections.task_1.Cat;
 
 import java.util.HashSet;
 import java.util.Set;

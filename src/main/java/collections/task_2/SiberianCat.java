@@ -1,6 +1,6 @@
-package lesson_12.task_2;
+package collections.task_2;
 
-import lesson_12.task_1.Cat;
+import collections.task_1.Cat;
 
 public class SiberianCat extends Cat implements Strokable {
     @Override
